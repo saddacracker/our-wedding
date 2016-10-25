@@ -1,5 +1,46 @@
+/* Elements */
+
 body {
-    background-color: #fdfbf1;
+    background: url('images/header-bouquet.gif') no-repeat center top #fcf9e8;
     font-family: 'Antic Didone', serif;
     color: #666666;
 }
+
+footer {
+    text-align: center;
+}
+
+
+/* Components */
+
+.page-section {
+    width: 1000px;
+    padding: 2em;
+    border-radius: .5em;
+    margin: 0 auto 3em auto;
+    text-align: center;
+}
+
+#home {
+
+}
+    #welcome {
+        margin-top: 33em;
+    }
+
+    #packages {
+
+    }
+        .package {
+            margin-bottom: 1.5em;
+        }
+            .package__title {
+
+            }
+            .package__price {
+
+            }
+            .package__description {
+                margin-bottom: .25em;
+            }
+
