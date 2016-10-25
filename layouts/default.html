@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Our Wedding - <%= @item[:title] %></title>
+    <link href="https://fonts.googleapis.com/css?family=Antic+Didone" rel="stylesheet">
+    <link rel="stylesheet" href="/bootstrap.min.css">
+    <link rel="stylesheet" href="/stylesheet.css">
+
+    <!-- you don't need to keep this, but it's cool for stats! -->
+    <meta name="generator" content="Nanoc <%= Nanoc::VERSION %>">
+  </head>
+  <body>
+    <div id="main">
+      <%= yield %>
+    </div>
+    <footer>
+      contact me @ Ballardweddings@yahoo.com  or  (413-773-0149)
+    </footer>
+  </body>
+</html>
