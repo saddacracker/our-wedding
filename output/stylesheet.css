@@ -8,6 +8,15 @@ body {
 
 footer {
     text-align: center;
+    background-color: #e9e5cc;
+    padding: 1em;
+}
+
+
+/* Bootsrap Overrides */
+
+.navbar--footer {
+    padding: 0;
 }
 
 
@@ -15,10 +24,11 @@ footer {
 
 .page-section {
     width: 1000px;
-    padding: 2em;
+    padding: 2em 2em 5em;
     border-radius: .5em;
-    margin: 0 auto 3em auto;
+    margin: 0 auto 1.5em auto;
     text-align: center;
+    background: url('images/divider.png') no-repeat center bottom transparent;
 }
 
 #home {
@@ -27,6 +37,20 @@ footer {
     #welcome {
         margin-top: 33em;
     }
+        .welcome__title--main {
+            font-size: 5em;
+            margin-bottom: .5em;
+        }
+
+        .welcome__subtitle {
+            display: block;
+            font-size: .67em;
+            color: #898888;
+        }
+
+        .welcome_image {
+            margin-bottom: .5em;
+        }
 
     #packages {
 

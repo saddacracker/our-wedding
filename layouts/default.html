@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>Our Wedding - <%= @item[:title] %></title>
     <link href="https://fonts.googleapis.com/css?family=Antic+Didone" rel="stylesheet">
+    <script src="/jquery-3.1.1.min.js"></script>
     <link rel="stylesheet" href="/bootstrap.min.css">
     <link rel="stylesheet" href="/stylesheet.css">
 
@@ -11,11 +12,17 @@
     <meta name="generator" content="Nanoc <%= Nanoc::VERSION %>">
   </head>
   <body>
+
     <div id="main">
       <%= yield %>
     </div>
-    <footer>
-      contact me @ Ballardweddings@yahoo.com  or  (413-773-0149)
-    </footer>
+
+    <nav class="navbar navbar-default navbar-fixed-bottom navbar--footer">
+        <footer>
+          Contact Elaine <a href="mailto:ballardweddings@yahoo.com?subject=Wedding Inquiry">ballardweddings@yahoo.com</a> or <a href="tel:1-413-773-0149">(413) 773-0149</a>
+        </footer>
+    </nav>
+
+    <script src="/application.js"></script>
   </body>
 </html>

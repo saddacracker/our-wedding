@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>Our Wedding - Home</title>
     <link href="https://fonts.googleapis.com/css?family=Antic+Didone" rel="stylesheet">
+    <script src="/jquery-3.1.1.min.js"></script>
     <link rel="stylesheet" href="/bootstrap.min.css">
     <link rel="stylesheet" href="/stylesheet.css">
 
@@ -11,37 +12,30 @@
     <meta name="generator" content="Nanoc 4.2.4">
   </head>
   <body>
+
     <div id="main">
       
 <div id="home">
   <section class="page-section" id="welcome">
-    <h1>Our Wedding <span>Beautiful &amp; Meaningful Ceremonies</span></h1>
-
-    <h2> Elaine Ballard <span>Wedding Officiant</span></h2>
+    <h1 class="welcome__title welcome__title--main">Our Wedding <span class="welcome__subtitle">Beautiful &amp; Meaningful Ceremonies</span></h1>
+    <img class="welcome_image" src="images/mom.png">
+    <h2 class="welcome__title"> Elaine Ballard <span class="welcome__subtitle">Wedding Officiant</span></h2>
   </section>
 
   <section class="page-section" id="price-list">
     <h3>Wedding Price List</h3>
 
-    Personal Consultation: $100.00
-    Phone Consultation: $50.00 ea.
-
-
-    Simple Wedding Ceremony in your home: $100.00
-
-
-    Wedding Ceremony performed within a 25 mile radius of Greenfield: $150.00
-
-    Rehearsal: $150.00
-
-
-    Sand Ceremony: $50.00
-
-    Candle Ceremony: $50.00
-
-    Family Sand or Candle Ceremony: $100.00
-
-    Mother's Rose Ceremony: $50.00
+    <div>
+      <div>Personal Consultation: <span class="package__price">$100.00</span></div>
+      <div>Phone Consultation: <span class="package__price">$50.00 ea.</span></div>
+      <div>Simple Wedding Ceremony in your home: <span class="package__price">$100.00</span></div>
+      <div>Wedding Ceremony performed within a 25 mile radius of Greenfield: <span class="package__price">$150.00</span></div>
+      <div>Rehearsal: <span class="package__price">$150.00</span></div>
+      <div>Sand Ceremony: <span class="package__price">$50.00</span></div>
+      <div>Candle Ceremony: <span class="package__price">$50.00</span></div>
+      <div>Family Sand or Candle Ceremony: <span class="package__price">$100.00</span></div>
+      <div>Mother's Rose Ceremony: <span class="package__price">$50.00</span></div>
+    </div>
   </section>
 
   <section class="page-section" id="packages">
@@ -79,8 +73,13 @@
 
 
     </div>
-    <footer>
-      contact me @ Ballardweddings@yahoo.com  or  (413-773-0149)
-    </footer>
+
+    <nav class="navbar navbar-default navbar-fixed-bottom navbar--footer">
+        <footer>
+          Contact Elaine <a href="mailto:ballardweddings@yahoo.com?subject=Wedding Inquiry">ballardweddings@yahoo.com</a> or <a href="tel:1-413-773-0149">(413) 773-0149</a>
+        </footer>
+    </nav>
+
+    <script src="/application.js"></script>
   </body>
 </html>
